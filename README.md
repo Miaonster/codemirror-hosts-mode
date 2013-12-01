@@ -14,7 +14,7 @@ Add `hosts.js` to your html
 Specify `hosts` mode when using CodeMirror.
 
 ```
- var editor = CodeMirror.fromTextArea(document.getElementById("code"), {lineNumbers: true});
+ CodeMirror.fromTextArea(element, { mode: 'hosts' } );
 ```
 
 ### Screenshot
